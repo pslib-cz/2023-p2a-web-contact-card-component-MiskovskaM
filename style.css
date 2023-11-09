@@ -1,0 +1,70 @@
+body {
+    background-image: url("../Card1-example/images/bg.webp");
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.page {
+    max-width: 960px;
+    margin: 0 auto;
+
+
+}
+
+
+.card {
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    margin: 3rem;
+    margin-top: 5rem;
+
+    display: inline-block;
+
+}
+
+.card__img--white {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 3.4em;
+    margin-top: -6.4em;
+    background-color: white;
+
+}
+
+.card__img {
+    height: 95px;
+    width: 95px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 3.5em;
+    margin-top: -4em;
+
+}
+
+
+
+.card__text {
+    font-family: sans-serif;
+    color: black;
+    text-align: left;
+    font-weight: light;
+    margin-left: -7rem;
+    margin-top: -1, 1em
+}
+
+
+
+h1 {
+    font-size: medium;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    border-bottom: solid black 1px;
+}
+
+.ikona--red {
+    color: red;
+}
