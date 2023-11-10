@@ -15,23 +15,23 @@ body {
 
 .card {
     height: 200px;
-    width: 200px;
+    aspect-ratio: 1/1;
     background-color: white;
     margin: 3rem;
     margin-top: 8rem;
 
     display: inline-block;
-    box-shadow: 10px 5px 5px rgba(0,0,0,0,0.5);
+    box-shadow: 10px 5px 5px black;
 
 }
 
-.card__img--white {
+.card__img--white {       /*  hodina */
     height: 100px;
-    width: 100px;
+    aspect-ratio: 1/1;
     border-radius: 50%;
     overflow: hidden;
-    margin-left: 3.4em;
-    margin-top: -6.4em;
+    margin:auto;
+    margin-top: -50px;
     background-color: white;
     
 
@@ -39,7 +39,7 @@ body {
 
 .card__img {
     height: 95px;
-    width: 95px;
+    aspect-ratio: 1/1;
     border-radius: 50%;
     overflow: hidden;
     margin-left: 3.5em;
