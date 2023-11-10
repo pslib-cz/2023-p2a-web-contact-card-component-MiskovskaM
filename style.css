@@ -7,22 +7,20 @@ body {
 
 .page {
     max-width: 960px;
-    margin: 0 auto;
-
+    margin: 0;
 
 }
 
-.card-box
-{
-    display:flex;
-    gap:1em;
+.card-box {
+    display: flex;
+    gap: 1em;
     overflow-x: auto;
-    
+
 }
 
 
 .card {
-    max-width:200px;
+    max-width: 200px;
     background-color: white;
     margin: 0;
     margin-top: calc(95px / 2);
@@ -37,21 +35,18 @@ body {
     width: 95px;
     border-radius: 50%;
     overflow: hidden;
-    margin:auto;
-    margin-top:calc(-95px / 2);
-    
+    margin: auto;
+    margin-top: calc(-95px / 2);
+
 }
 
 .card__img--white {
-    border:3px solid white;
-    
-    
-    
-    background-color: white; 
+    border: 3px solid white;
+    background-color: white;
 }
 
-.img{
-    width:100%;
+.img {
+    width: 100%;
 }
 
 
@@ -61,16 +56,15 @@ body {
     color: black;
     text-align: left;
     font-weight: light;
-    margin:0px;
-    padding:0px;
-    padding:1em;
+    margin: 0px;
+    padding: 1em;
 
 }
 
 .card__name {
     font-size: 1.5em;
-    margin:0em;
-    padding:0em;
+    margin: 0em;
+    padding: 0em;
     border-bottom: solid black 1px;
     padding-bottom: 0.5em;
 }
