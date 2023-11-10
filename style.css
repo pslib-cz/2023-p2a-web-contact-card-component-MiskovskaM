@@ -1,8 +1,5 @@
-:root {
-    background-image: url(../images/bg.webp);
-}
-
 body {
+    background-image: url(../images/bg.webp);
 
     background-attachment: fixed;
     background-size: cover;
