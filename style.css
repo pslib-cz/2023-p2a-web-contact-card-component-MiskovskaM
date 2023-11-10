@@ -25,28 +25,26 @@ body {
 
 }
 
-.card__img--white {
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin:auto;
-    margin-top:-6em;
-    
-    background-color: white; 
-    
-
-}
-
 .card__img {
     height: 95px;
     width: 95px;
     border-radius: 50%;
     overflow: hidden;
     margin:auto;
-    margin-left: 47.5px;
+    margin-top:-6em;
     
+}
 
+.card__img--white {
+    border:3px solid white;
+    
+    
+    
+    background-color: white; 
+}
+
+.img{
+    width:100%;
 }
 
 
